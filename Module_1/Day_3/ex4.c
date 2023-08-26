@@ -13,7 +13,7 @@ void findSmallestAndLargestDigits(int n, int numbers[]) {
             if (digit < smallestDigit) {
                 smallestDigit = digit;
             }
-            if (digit > largestDigit) {
+            else if(digit > largestDigit) {
                 largestDigit = digit;
             }
             num /= 10;

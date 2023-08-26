@@ -8,7 +8,7 @@ int bit_operations(int num, int oper_type) {
             result = result | (1 << 0);   // Set 1st bit
             break;
         case 2:
-            result = result & ~(1 << 31);  // Clear 31st bit
+            result = result & ~(1 << 30);  // Clear 31st bit
             break;
         case 3:
             result = result ^ (1 << 15);   // Toggle 16th bit
